@@ -1,0 +1,9 @@
+In this practice, I built a small application to check short claims about sports supplements. The idea is simple: the user writes a short sentence, such as “Creatine boosts strength”, and the system gives a provisional verdict based on a small reduced corpus. This is not a full scientific fact-checking system. It is a small prototype focused on a limited set of ingredients and claim types.
+
+I used a local LLM in this project, specifically **qwen2.5:3b** running with **Ollama**. I chose this model because it is small, easy to run on a normal computer, and good enough for a simple structured task like this one. I also wanted to keep the whole system local, because that was one of the main requirements of the assignment.
+
+In the code, I first normalize the input text, then I detect the ingredient with a small lexicon, and after that I detect the type of claim. If the claim is inside the supported scope, the system retrieves one or two evidence fragments from a reduced CSV corpus. Then the local LLM reads the claim and the evidence and returns a short structured answer.
+
+I kept the project small on purpose. I only support three ingredients: creatine monohydrate, caffeine, and whey protein. I also only support four claim cases, such as creatine with strength or caffeine with fatigue and energy. This made the practice easier to implement, easier to test, and easier to explain in a clear way.
+
+In the end, the project is a simple but complete NLP prototype. It combines rule-based processing, small evidence retrieval, a local LLM, and a GUI in one application. I think this makes it more interesting than a basic prompt-response demo.
