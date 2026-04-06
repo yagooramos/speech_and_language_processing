@@ -1,0 +1,5 @@
+matrix_id,ingredient,claim_type,outcome_target,scope_status,example_claims
+M01,creatine_monohydrate,rendimiento,strength,evaluable,increases strength|boosts strength
+M04,caffeine,energia_fatiga,perceived_energy_fatigue_reduction,evaluable,boosts energy|reduces fatigue
+M07,whey_protein,recuperacion,post_exercise_recovery,evaluable,supports recovery|helps recover after training
+M08,whey_protein,composicion_corporal,lean_mass_gain,evaluable,supports muscle growth|helps build lean muscle

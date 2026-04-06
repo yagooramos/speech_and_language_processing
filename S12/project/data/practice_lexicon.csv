@@ -1,0 +1,24 @@
+term_id,term_type,canonical_form,surface_form
+PRACTICE_LEX_001,ingredient,creatine_monohydrate,creatine
+PRACTICE_LEX_002,ingredient,creatine_monohydrate,creatine monohydrate
+PRACTICE_LEX_003,ingredient,caffeine,caffeine
+PRACTICE_LEX_004,ingredient,whey_protein,whey
+PRACTICE_LEX_005,ingredient,whey_protein,whey protein
+PRACTICE_LEX_006,claim_expression,rendimiento,boosts strength
+PRACTICE_LEX_007,claim_expression,rendimiento,increases strength
+PRACTICE_LEX_008,claim_expression,rendimiento,improves strength
+PRACTICE_LEX_009,claim_expression,energia_fatiga,reduces fatigue
+PRACTICE_LEX_010,claim_expression,energia_fatiga,less fatigue
+PRACTICE_LEX_011,claim_expression,energia_fatiga,boosts energy
+PRACTICE_LEX_012,claim_expression,recuperacion,supports recovery
+PRACTICE_LEX_013,claim_expression,recuperacion,recover faster
+PRACTICE_LEX_014,claim_expression,recuperacion,post workout recovery
+PRACTICE_LEX_015,claim_expression,composicion_corporal,supports muscle growth
+PRACTICE_LEX_016,claim_expression,composicion_corporal,helps build muscle
+PRACTICE_LEX_017,claim_expression,composicion_corporal,lean muscle
+PRACTICE_LEX_018,outcome,strength,strength
+PRACTICE_LEX_019,outcome,perceived_energy_fatigue_reduction,fatigue
+PRACTICE_LEX_020,outcome,post_exercise_recovery,recovery
+PRACTICE_LEX_021,outcome,lean_mass_gain,muscle growth
+PRACTICE_LEX_022,dose_unit,gram,g
+PRACTICE_LEX_023,dose_unit,milligram,mg
