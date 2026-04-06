@@ -23,5 +23,4 @@ Reduce the final-project corpus into a small, class-friendly subset for a text-o
 ## Suggested provisional verdict logic for the class app
 - supported
 - partially_supported
-- insufficient_evidence
 - not_evaluable
